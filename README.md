@@ -57,7 +57,9 @@ The CFPB explains that complaint data should be interpreted carefully and should
 ![Transformation Priority Matrix](outputs/transformation_priority_matrix.png)
 
 ---
+> **[Explore the Interactive Banking Operations Dashboard →](https://aishwaryamarkandu.github.io/banking-operations-transformation/)**
 
+---
 
 ## Analytical Approach
 
