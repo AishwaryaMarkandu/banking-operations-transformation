@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banking Operations & Transformation Intelligence</title>
+<style>
+:root{
+  --bg:#f5f6f8; --card:#fff; --ink:#17191d; --muted:#69717d;
+  --line:#e4e7eb; --accent:#111827; --soft:#eef0f3;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:1180px;margin:auto;padding:34px 24px 60px}
+.hero{background:#fff;border:1px solid var(--line);border-radius:24px;padding:34px 38px;margin-bottom:22px}
+.eyebrow{font-size:12px;font-weight:750;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:42px;line-height:1.08;margin:10px 0 12px;letter-spacing:-.035em}
+.hero p{max-width:760px;color:var(--muted);font-size:17px;line-height:1.65;margin:0}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.kpi .label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}
+.kpi .value{font-size:28px;font-weight:750;margin-top:8px}
+.tabs{display:flex;gap:8px;margin:24px 0 16px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 16px;cursor:pointer;font-weight:650}
+.tab.active{background:#111827;color:#fff;border-color:#111827}
+.panel{display:none}.panel.active{display:block}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;margin-bottom:16px}
+.card h2{font-size:21px;margin:0 0 8px}.card p{color:var(--muted);line-height:1.65}
+.two{display:grid;grid-template-columns:1.25fr .75fr;gap:16px}
+.bar{display:grid;grid-template-columns:250px 1fr 80px;align-items:center;gap:12px;margin:15px 0}
+.bar .name{font-size:14px}.track{height:10px;background:#edf0f2;border-radius:99px;overflow:hidden}.fill{height:100%;background:#17191d;border-radius:99px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:13px 10px;border-bottom:1px solid var(--line)}th{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.badge{display:inline-block;padding:5px 9px;border-radius:999px;background:#eef0f3;font-size:12px;font-weight:700}
+.insight{border-left:4px solid #17191d;background:#f7f7f8;border-radius:0 12px 12px 0;padding:15px 17px;margin:12px 0;line-height:1.55}
+.footer{color:var(--muted);font-size:12px;margin-top:24px}
+@media(max-width:850px){.grid,.two{grid-template-columns:1fr 1fr}.bar{grid-template-columns:150px 1fr 65px}}
+@media(max-width:560px){.grid,.two{grid-template-columns:1fr}h1{font-size:32px}.hero{padding:26px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section class="hero">
+  <div class="eyebrow">Financial Services · Operations · Transformation</div>
+  <h1>Banking Operations &amp; Transformation Intelligence</h1>
+  <p>I analysed more than 10.7 million CFPB consumer complaints to identify recurring customer pain points, operational signals and areas that could warrant further transformation investigation.</p>
+</section>
+
+<section class="grid">
+  <div class="kpi"><div class="label">Complaints analysed</div><div class="value">10.77M</div></div>
+  <div class="kpi"><div class="label">Timely response rate</div><div class="value">99.54%</div></div>
+  <div class="kpi"><div class="label">Unique complaint IDs</div><div class="value">10.77M</div></div>
+  <div class="kpi"><div class="label">Period</div><div class="value">2021–2025</div></div>
+</section>
+
+<div class="tabs">
+  <button class="tab active" onclick="showTab('overview',this)">Executive overview</button>
+  <button class="tab" onclick="showTab('priorities',this)">Transformation priorities</button>
+  <button class="tab" onclick="showTab('method',this)">My methodology</button>
+</div>
+
+<section id="overview" class="panel active">
+<div class="two">
+<div class="card">
+<h2>Highest-priority signals</h2>
+<p>I use the priority score as a structured decision-support framework rather than as a direct measure of financial loss or customer impact.</p>
+
+<div class="bar"><span class="name">Student Loan · Lender / servicer</span><div class="track"><div class="fill" style="width:100%"></div></div><strong>.849</strong></div>
+<div class="bar"><span class="name">Student Loan · Repayment difficulty</span><div class="track"><div class="fill" style="width:96%"></div></div><strong>.816</strong></div>
+<div class="bar"><span class="name">Payday / Personal Loan · Unexpected fees</span><div class="track"><div class="fill" style="width:94%"></div></div><strong>.800</strong></div>
+<div class="bar"><span class="name">Debt Collection · Legal action</span><div class="track"><div class="fill" style="width:94%"></div></div><strong>.800</strong></div>
+<div class="bar"><span class="name">Debt Collection · Debt not owed</span><div class="track"><div class="fill" style="width:89%"></div></div><strong>.753</strong></div>
+</div>
+
+<div class="card">
+<h2>My first reading</h2>
+<div class="insight">Student Loan issues appear repeatedly at the top of the prioritisation framework, combining meaningful complaint volumes with operational-response signals.</div>
+<div class="insight">Debt Collection is also a recurring transformation signal, particularly around collection practices, legal-action concerns and communication.</div>
+<div class="insight">I treat these as investigation signals — not evidence of operational failure.</div>
+</div>
+</div>
+</section>
+
+<section id="priorities" class="panel">
+<div class="card">
+<h2>Top transformation priorities</h2>
+<p>These are the highest-ranked product–issue combinations produced by my scoring framework.</p>
+<table>
+<thead><tr><th>Rank</th><th>Product</th><th>Issue</th><th>Complaints</th><th>Score</th><th>Band</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Student Loan</td><td>Dealing with your lender or servicer</td><td>39,347</td><td>.849065</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>2</td><td>Student Loan</td><td>Struggling to repay your loan</td><td>10,204</td><td>.816355</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>3</td><td>Payday / Personal Loan</td><td>Charged fees or interest you didn't expect</td><td>9,348</td><td>.800467</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>4</td><td>Debt Collection</td><td>Took or threatened to take negative or legal action</td><td>76,793</td><td>.800000</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>5</td><td>Debt Collection</td><td>Attempts to collect debt not owed</td><td>292,112</td><td>.753271</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>6</td><td>Debt Collection</td><td>False statements or representation</td><td>71,166</td><td>.751869</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>7</td><td>Debt / Credit Management</td><td>Didn't provide services promised</td><td>1,996</td><td>.738318</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>8</td><td>Mortgage</td><td>Applying for a mortgage or refinancing</td><td>15,708</td><td>.736916</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>9</td><td>Debt Collection</td><td>Communication tactics</td><td>29,488</td><td>.735047</td><td><span class="badge">Prioritise</span></td></tr>
+<tr><td>10</td><td>Credit Card &amp; Prepaid</td><td>Trouble using the card</td><td>10,065</td><td>.733645</td><td><span class="badge">Prioritise</span></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="method" class="panel">
+<div class="two">
+<div class="card">
+<h2>How I approached the analysis</h2>
+<p><strong>1. Data quality.</strong> I processed the CFPB dataset in chunks and kept the raw source untouched.</p>
+<p><strong>2. Business framing.</strong> I focused on customer pain, operational responsiveness and recurring issue patterns.</p>
+<p><strong>3. Operational KPIs.</strong> I measured complaint volume, timely response and response-delay signals.</p>
+<p><strong>4. Prioritisation.</strong> I combined four dimensions into a transparent score.</p>
+<p><strong>5. Transformation lens.</strong> I translated the analytical signals into areas for further investigation.</p>
+</div>
+<div class="card">
+<h2>Priority score</h2>
+<div class="insight"><strong>35%</strong> Complaint volume</div>
+<div class="insight"><strong>35%</strong> Untimely response rate</div>
+<div class="insight"><strong>20%</strong> Average response delay</div>
+<div class="insight"><strong>10%</strong> Issue concentration within product</div>
+</div>
+</div>
+<div class="card">
+<h2>What I would do next</h2>
+<p>I would validate the highest-priority signals with process owners, map the underlying workflows, investigate root causes and assess potential interventions based on expected value, feasibility and operational dependencies.</p>
+</div>
+</section>
+
+<div class="footer">Data source: U.S. Consumer Financial Protection Bureau Consumer Complaint Database · Analytical outputs generated with Python.</div>
+</div>
+<script>
+function showTab(id,btn){
+ document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+ document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+ document.getElementById(id).classList.add('active'); btn.classList.add('active');
+}
+</script>
+</body>
+</html>
