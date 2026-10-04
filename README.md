@@ -41,12 +41,11 @@ https://www.consumerfinance.gov/data-research/consumer-complaints/
 The CFPB explains that complaint data should be interpreted carefully and should not be considered a statistically representative sample of all consumers.
 
 ---
+> **[Explore the Interactive Banking Operations Dashboard →](https://aishwaryamarkandu.github.io/banking-operations-transformation/)**
+
+---
 
 ## Visual Insights
-
-### Complaint Trends
-
-![Monthly Complaint Trends](outputs/monthly_complaints_trend.png)
 
 ### Top Financial Products
 
@@ -55,9 +54,6 @@ The CFPB explains that complaint data should be interpreted carefully and should
 ### Transformation Priority Matrix
 
 ![Transformation Priority Matrix](outputs/transformation_priority_matrix.png)
-
----
-> **[Explore the Interactive Banking Operations Dashboard →](https://aishwaryamarkandu.github.io/banking-operations-transformation/)**
 
 ---
 
