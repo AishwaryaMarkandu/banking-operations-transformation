@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local data
+complaints.csv
+*.zip
+
+# Generated outputs
+outputs/*.csv
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
