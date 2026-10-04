@@ -42,6 +42,23 @@ The CFPB explains that complaint data should be interpreted carefully and should
 
 ---
 
+## Visual Insights
+
+### Complaint Trends
+
+![Monthly Complaint Trends](outputs/monthly_complaints_trend.png)
+
+### Top Financial Products
+
+![Top Financial Products](outputs/top_products.png)
+
+### Transformation Priority Matrix
+
+![Transformation Priority Matrix](outputs/transformation_priority_matrix.png)
+
+---
+
+
 ## Analytical Approach
 
 I structured the analysis as follows:
